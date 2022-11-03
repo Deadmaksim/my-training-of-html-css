@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>test of forms</title>
+</head>
+<body>
+<form action="">
+    <div class="radios">
+        <p>
+            выберите пол:
+        </p>
+        <div class="radios__item">
+           <input type="radio" name="gender" id="male" >
+                <label for="male">
+                    Male
+                </label>
+        </div>
+        <div class="radios__item">
+            <input type="radio" name="gender" id="female">
+                <label for="female">
+                    Female
+                </label>
+        </div>
+        <div class="radios__item">    
+            <input type="radio" name="gender" id="attack-helicopter">
+                <label for="attack-helicopter">
+                    AttackHelicopter
+                </label>
+        </div>
+    </div>
+    <div class="text-block">
+        <div class="text__item">
+            <input type="text" placeholder="Name:">
+        </div>
+        <div class="text__item">
+            <input type="text" placeholder="Email:">
+        </div>
+    </div>
+    <div class="switchers">
+        <div class="switcher__item"> 
+            <input type="checkbox" name="switcher" id="switcher1" class="switcher-button">
+            <label for="switcher1"></label>
+        </div>     
+        <div class="switcher__item">
+            <input type="checkbox" name="switcher" id="switcher2" class="switcher-button">
+            <label for="switcher2" id="switcher__square-version"></label>
+        </div>    
+        <div class="switcher__item">
+            <input type="checkbox" name="switcher" id="switcher3" class="switcher-button">            
+            <label for="switcher3" id="switchers__transition"></label>
+        </div>
+    </div>
+    <div class="select-block">
+        <select name="select-item" class="select-block__select-item">
+            <option value="Select game">
+                Select game
+            </option>
+            <option value="CS:GO">
+                CS:GO
+            </option>
+            <option value="Minecraft">
+                Minecraft
+            </option>
+        </select>
+    </div>
+</form>
+<div id="js" class="jsTest">
+    <div class="rect">
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
